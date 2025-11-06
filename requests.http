@@ -1,0 +1,13 @@
+### Home
+GET http://localhost:8080
+
+### Echo
+POST http://localhost:8080/echo
+Content-Type: application/json
+
+{
+    "rand-key": "echoing"
+}
+
+### Hey
+GET http://localhost:8080/hey
